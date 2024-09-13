@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./1724150342430.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-color:rgb(28, 113, 139) ;
+    background-blend-mode:overlay;
+}
+
+.sho {
+    height: 60px;
+}
+
+.was {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(42, 42, 112);
+}
+
+
+.ko {
+    width: 100%;
+    height: 500px;
+    margin-top: 7%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+
+.first {
+    width: 450px;
+    height: 500px;
+    margin-bottom: 5%;
+    margin-left: 3%;
+    border: 3px solid none;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.my {
+    margin: 1%;
+
+}
+
+.oto{
+    height: 80px;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-size: 27px;
+}
+
+.why {
+    font-size: 88%;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.ok {
+    letter-spacing: 0px;
+    font-family: sans-serif;
+    font-weight: 700;
+    border: 2px solid darkslateblue;
+    border-radius: 3px;
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 85%;
+    padding: 10px;
+    color: darkslateblue;
+}
+
+.down {
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+.see {
+    font-size: 17px;
+    font-family: sans-serif;
+
+}
+
+.up {
+    font-size: smaller;
+    font-weight: lighter;
+    font-family: sans-serif;
+    font-style: italic;
+
+
+}
+
+.me {
+    color: red;
+}
+
+
+.second {
+    width: 450px;
+    height: 500px;
+    margin-bottom: 5%;
+    margin-left: 3%;
+    border: 3px solid none;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.you {
+    margin-top: 5%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.jok{
+    width: 100%;
+    display: flex;
+    align-items:center;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.opp {
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-top: 50%;
+    display: inline;
+
+}
+
+.opp2 {
+    font-family: sans-serif;
+    font-size: small;
+    text-decoration: none;
+    text-align: right;
+    margin-top: 10%;
+    margin-left: 38%;
+    display: inline;
+    color: darkslateblue;
+
+
+}
+
+.vo{
+    font-family: sans-serif;
+    font-size: small;
+    text-decoration: none;
+    margin-top: 10%;
+    margin-left: 39%;
+    display: inline;
+    color: darkslateblue;
+}
+
+.over {
+    width: 100%;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    justify-content: space-between;
+}
+
+.top {
+    width: 100%;
+    margin-top: 7%;
+    justify-content: space-between;
+    margin-bottom: 2%;
+}
+
+#email {
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgb(211, 211, 211);
+}
+
+#password {
+
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgb(211, 211, 211);
+}
+
+.yes {
+    letter-spacing: 0px;
+    font-weight: 700;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(28, 113, 139);
+    margin-top: 25px;
+    margin-bottom: 12px;
+    width: 100%;
+    padding: 10px;
+    color: white;
+}
+
+.under {
+    width: 100%;
+    height: 140px;
+    background-color: lightblue;
+    border-radius: 2%;
+}
+
+.vote {
+    margin-left: 18px;
+    margin-right: 12px;
+    padding-top: 20px;
+    padding-bottom: 18px;
+    line-height: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    align-content: center;
+    justify-content: center;
+    font-family: sans-serif;
+    color: rgb(28, 113, 139);
+}
+
+.nike {
+    display: inline;
+    font-weight: 900;
+}
+
+.too{
+    width: 100%;
+    height: 60px;
+    padding-top: 0.9%;
+    background-color: white
+}
+
+.ona{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight:bolder;
+    color: black;
+    text-decoration: none;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.oni{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.4%;
+}
+
+.pop{
+    margin-left: 0.3%;
+    margin-right: 0.3%;
+}
+
+.rep{
+    color: rgb(45, 180, 180);
+}
+
+
+@media (min-width:320px) and (max-width:480px) {
+ body{
+    background-image: url(./deadpool.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    /* background-color:crimson;
+    background-blend-mode:overlay; */
+    }
+    .was {
+        width: 100%;
+        height: 60px;
+        background-color: crimson;
+    }
+    .first {
+        width: 300px;
+        height: 500px;
+        margin-bottom: 5%;
+        margin-left: 3%;
+        border: 3px solid none;
+        border-radius: 8px;
+        background-color: white;
+    }
+    .dop{
+        padding: auto;
+    }
+    .ok {
+        letter-spacing: 0px;
+        font-family: sans-serif;
+        font-weight: 700;
+        border: 2px solid crimson;
+        border-radius: 3px;
+        background-color: white;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        width: 85%;
+        padding: 10px;
+        color: crimson;
+    }
+
+    .second {
+        width: 300px;
+        height: 500px;
+        margin-bottom: 5%;
+        margin-left: 3%;
+        border: 3px solid none;
+        border-radius: 8px;
+        background-color: white;
+    }
+
+    .opp2 {
+        font-family: sans-serif;
+        font-size: small;
+        text-decoration: none;
+        text-align: right;
+        margin-top: 10%;
+        margin-left: 8%;
+        display: inline;
+        color: crimson;
+    }
+
+    .vo{
+        font-family: sans-serif;
+        font-size: small;
+        text-decoration: none;
+        margin-top: 10%;
+        margin-left: 11%;
+        display: inline;
+        color: crimson;
+    }
+
+
+    .under {
+        width: 100%;
+        height: 140px;
+        background-color: crimson;
+        border-radius: 2%;
+    }
+
+    .vote {
+        margin-left: 18px;
+        margin-right: 12px;
+        padding-top: 20px;
+        padding-bottom: 18px;
+        line-height: 20px;
+        font-weight: 500;
+        font-size: 16px;
+        align-content: center;
+        justify-content: center;
+        font-family: sans-serif;
+        font-size:50%;
+        color: white;
+    }
+
+    .yes{
+        background-color: crimson;
+        color:white;
+    }
+}

@@ -1,0 +1,69 @@
+ body{
+    background-image: url(/IMAGES/BUILDINGS/adam-birkett-_IrFSypwykg-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:100% 100% ;
+    margin: 0;
+ } 
+
+.high{
+    margin: 0%;
+    padding: 0%;
+    color: white;
+    font-size: 200px;   
+}
+
+h2{
+    margin: 0%;
+    color: white;
+}
+
+span{
+    font-size: 75%;
+}
+
+p{
+    color: white;
+    font-style: italic;
+}
+
+ul{
+    margin: 0%;
+    padding: 0%;
+    border: none;
+    display: inline;
+}
+
+div{
+    width: 500px;
+    height: 500px;
+    border: 3px solid white;
+    border-radius: 100px;
+}
+
+.low{
+    color: white;
+    font-family: franklin;
+}
+
+.was{
+    color: white;
+}
+
+a[href]{
+    margin: 0%;
+    color: white;
+    font-size: 200%;
+}
+
+button{
+    width: 50%;
+    height: 50%;
+    border: 2px solid black;
+    border-radius: 25%;
+}
+
+span{
+    color: white;
+    font-size: 120%;
+}

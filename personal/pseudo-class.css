@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: turquoise;
+}
+.and{
+    height: 50px;
+    width: 400px;
+    font-size: medium;
+    font-weight: bold;
+    background-color: brown;
+    border: none;
+    margin-left: 100px;
+    margin-top: 300px;
+    border-radius: 20px;
+}
+
+.and:hover{
+    background-color: blue;
+    color: white;
+    font-size: larger;
+    transform: scale(2);
+}
+
+a[href="./classwork.html"]{
+    text-decoration: none;
+    height: 50px;
+    width: 400px;
+}
+
+
+a:active{
+    height: 100px;
+    width: 450px;
+    color: white;
+    font-size: large;
+}
+
+.femi:focus{
+    border: 5px solid blue;
+    background-color: navy;
+
+}
+
+a:visited[href="./About.html"]{
+    color: red;
+}
